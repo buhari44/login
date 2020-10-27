@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-container {
+  background-color: black;
+  max-width: 30%;
+  width: 25%;
+  margin: auto;
+  margin-top: 7%;
+  border-radius: 20px;
+}
+.form-header {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-header .logo {
+  width: 85px;
+  height: 85px;
+  background-color: #ffffff;
+  border-radius: 20% 20% 20% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo div {
+  height: 30px;
+  width: 30px;
+  background-color: #000000;
+  border-radius: 30px 30px 30px 0;
+}
+#form {
+  background-color: #e4e4e4e1;
+  padding: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 23%;
+}
+form input {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.3;
+  padding-top: 5px;
+}
+#form .input-wrapper {
+  padding: 20px;
+  height: 70px;
+  font-weight: 500;
+  font-size: 15px;
+  display: block;
+  text-transform: capitalize;
+  margin-bottom: 5%;
+  border: none;
+  border-radius: 15px 0 15px 15px;
+  background: #ffffff;
+  box-shadow: 20px 20px 100px #f5f5f5, -20px -20px 100px #ffffff;
+}
+#form div {
+  margin-bottom: 34px !important;
+}
+
+button {
+  border-radius: 15px 0 15px 15px;
+  background: #000000;
+  box-shadow: 20px 20px 100px #f5f5f5, -20px -20px 100px #ffffff;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+p {
+  margin-top: 15%;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
